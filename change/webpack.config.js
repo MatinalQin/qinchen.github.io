@@ -3,7 +3,7 @@ var webpack = require('webpack');
 
 module.exports = {
     // webpack 进行打包的入口文件，这里 webpack 从根目录下的 index.js 开始进行打包
-    entry: ['./index.js'],
+    entry: ['./index.jsx'],
     // webpack 打包后的输出文件的路径
     output: {
         path: path.join(__dirname, 'dist'), // 文件放至当前路径下的 dist 文件夹

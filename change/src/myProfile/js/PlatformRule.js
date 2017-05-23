@@ -2,7 +2,7 @@
  * Created by qinchen on 2017/5/18.
  */
 import React, {Component} from "react";
-import { Router, Route, Link } from 'react-router'
+import { Router, Route, Link,hasHistory } from 'react-router'
 
 
 

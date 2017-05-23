@@ -5,21 +5,16 @@ body{
 }
 *{
   overflow: hidden;
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-  border-radius: 0;
-  box-shadow: none;
-  font-family: Lantinghei SC,source-han-sans-simplified-c,Open Sans,Verdana,\\534E\6587\7EC6\9ED1,SimHei,Helvetica Neue,Helvetica,Arial,sans-serif;
-  font-weight: 200;
 }
+
 
 .App {
   /*text-align: center;*/
   overflow: hidden;
+
 }
 .App-header {
-  background:url("../images/profile_poster.png") no-repeat 0 0 fixed;
+  background:url("../../../dist/images/profile_poster.png") no-repeat 0 0 fixed;
   background-size:100% 10rem;
   /*background-size:100% 100%;*/
   width: 100%;
@@ -62,7 +57,7 @@ body{
   height: 3.5rem;
   line-height: 3rem;
   /*text-align: center;*/
-  background: url("../images/profile_item_mySettings.png") no-repeat 20px 14px ;
+  background: url("../../../dist/images/profile_item_mySettings.png") no-repeat 20px 14px ;
   background-size:20px 20px;
   background-color:#ffffff;
 
@@ -81,7 +76,7 @@ body{
   height: 3rem;
   line-height: 2.5rem;
   /*text-align: center;*/
-  background: url("../images/profile_item_rewardProgram.png") no-repeat 20px 10px ;
+  background: url("../../../dist/images/profile_item_rewardProgram.png") no-repeat 20px 10px ;
   background-size:20px 20px;
   background-color:#ffffff;
   div{
@@ -100,7 +95,7 @@ body{
   height: 3rem;
   line-height: 2.5rem;
   /*text-align: center;*/
-  background: url("../images/profile_item_rules.png") no-repeat 20px 10px ;
+  background: url("../../../dist/images/profile_item_rules.png") no-repeat 20px 10px ;
   background-size:20px 20px;
   background-color:#ffffff;
   div{
@@ -118,7 +113,7 @@ body{
   height: 3rem;
   line-height: 2.5rem;
   /*text-align: center;*/
-  background: url("../images/profile_item_faq.png") no-repeat 20px 10px ;
+  background: url("../../../dist/images/profile_item_faq.png") no-repeat 20px 10px ;
   background-size:20px 20px;
   background-color:#ffffff;
   div{
@@ -136,7 +131,7 @@ body{
   height: 2.5rem;
   line-height: 2.5rem;
   /*text-align: center;*/
-  background: url("../images/profile_item_feedback.png") no-repeat 20px 10px ;
+  background: url("../../../dist/images/profile_item_feedback.png") no-repeat 20px 10px ;
   background-size:20px 20px;
   background-color:#ffffff;
   div{
@@ -152,9 +147,9 @@ body{
   float: left;
   width: 100%;
   height: 3rem;
-  line-height: 2.75rem;
+  line-height: 2.5rem;
   /*text-align: center;*/
-  background: url("../images/profile_item_contact.png") no-repeat 20px 10px ;
+  background: url("../../../dist/images/profile_item_contact.png") no-repeat 20px 10px ;
   background-size:20px 20px;
   background-color:#ffffff;
   div{
@@ -162,45 +157,6 @@ body{
     width: 100%;
     float: left;
     margin-left: 60px;
-  }
-
-}
-
-.PlatformRuleContent{
-  height:100%;
-  padding: 10px 15px 15px;
-  line-height: 1.5em;
-  p{
-    margin: 10px auto;
-  }
-  h1{
-    margin-top: 1em;
-    font-size: 1.2em;
-    font-weight: 700;
-    color: #00bcd4;
-  }
-  .PlatformRuleContentp{
-    margin-right: 5px;
-    text-align: right;
-  }
-
-
-}
-//常见问题
-.CommonQuestionContent{
-  padding: 10px 15px 15px;
-  line-height: 1.5em;
-  h1{
-    margin-top: 1em;
-    font-size: 1.2em;
-    font-weight: 700;
-    color: #00bcd4;
-  }
-  p{
-    margin: 10px auto;
-  }
-  .question{
-    font-weight: 700;
   }
 
 }

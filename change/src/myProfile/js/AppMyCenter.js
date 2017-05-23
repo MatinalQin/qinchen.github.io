@@ -2,17 +2,16 @@
  * Created by qinchen on 2017/5/17.
  */
 import React, {Component} from 'react';
-import { render } from 'react-dom';
-import { Router, Route, Link, hashHistory } from 'react-router';
-import PlatformRule from './PlatformRule';
+
+import {  Link }from 'react-router'
+
 
 class AppCenter extends Component{
-
-
+    constructor(props){
+        super(props);
+    }
 
     render() {
-
-
         return(
             <div className="app-center">
                 <div className="app-centerOne">
@@ -23,8 +22,10 @@ class AppCenter extends Component{
                         <div>积分规则</div>
                     </div>
                     <div className="app-center-three">
-                        <Link to="/PlatformRule">PlatformRule</Link>
-                        <div>平台规则</div>
+                        <div>
+                            <Link to="/PlatformRule">平台规则</Link>
+                        </div>
+
                     </div>
                     <div className="app-center-four">
                         <div>常见问题</div>
@@ -44,11 +45,11 @@ class AppCenter extends Component{
 export default AppCenter;
 
 
-render((
-    <Router history={hashHistory}>
-        <Route path="/" component={AppCenter}/>
-        <Route path="／PlatformRule" component={PlatformRule} />
-    </Router>
-), document.getElementById('app'));
+// render((
+//     <Router history={hashHistory}>
+//         <Route path="/" component={AppCenter}/>
+//         <Route path="／PlatformRule" component={PlatformRule} />
+//     </Router>
+// ), document.getElementById('app'));
 
 
