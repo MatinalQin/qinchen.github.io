@@ -1,0 +1,209 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+*{
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border-radius: 0;
+  box-shadow: none;
+  font-family: Lantinghei SC,source-han-sans-simplified-c,Open Sans,Verdana,\\534E\6587\7EC6\9ED1,SimHei,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-weight: 200;
+}
+
+.App {
+  /*text-align: center;*/
+  overflow: hidden;
+}
+.App-header {
+  background:url("../images/profile_poster.png") no-repeat 0 0 fixed;
+  background-size:100% 10rem;
+  /*background-size:100% 100%;*/
+  width: 100%;
+  height: 10rem;
+  /*margin: 20px;*/
+  color: white;
+  text-align: center;
+  overflow: hidden;
+}
+.App-logo{
+  nimation: App-logo-spin infinite 20s linear;
+  height: 50px;
+}
+
+.app-name{
+  font-size: 14px;
+
+}
+.app-number{
+  font-size: 14px;
+  /*border: 1px solid #FFFFFF;*/
+  overflow: hidden;
+
+}
+.app-center{
+  height:80rem;
+  width: 100%;
+  background: #f5f5f5;
+  display: block;
+  overflow: hidden;
+}
+.app-centerOne{
+  width: 100%;
+  height: 30%;
+  /*display: block;*/
+}
+.app-center-one{
+  float: left;
+  width: 100%;
+  height: 3.5rem;
+  line-height: 3rem;
+  /*text-align: center;*/
+  background: url("../images/profile_item_mySettings.png") no-repeat 20px 14px ;
+  background-size:20px 20px;
+  background-color:#ffffff;
+
+  div{
+    font-size: 14px;
+    width: 100%;
+    float: left;
+    margin-left: 60px;
+    border-bottom:1px solid #e5e5e5 ;
+  }
+
+}
+.app-center-two{
+  float: left;
+  width: 100%;
+  height: 3rem;
+  line-height: 2.5rem;
+  /*text-align: center;*/
+  background: url("../images/profile_item_rewardProgram.png") no-repeat 20px 10px ;
+  background-size:20px 20px;
+  background-color:#ffffff;
+  div{
+    font-size: 14px;
+    width: 100%;
+    float: left;
+    margin-left: 60px;
+    border-bottom:1px solid #e5e5e5 ;
+  }
+
+}
+
+.app-center-three{
+  float: left;
+  width: 100%;
+  height: 3rem;
+  line-height: 2.5rem;
+  /*text-align: center;*/
+  background: url("../images/profile_item_rules.png") no-repeat 20px 10px ;
+  background-size:20px 20px;
+  background-color:#ffffff;
+  div{
+    font-size: 14px;
+    width: 100%;
+    float: left;
+    margin-left: 60px;
+    border-bottom:1px solid #e5e5e5 ;
+  }
+
+}
+.app-center-four{
+  float: left;
+  width: 100%;
+  height: 3rem;
+  line-height: 2.5rem;
+  /*text-align: center;*/
+  background: url("../images/profile_item_faq.png") no-repeat 20px 10px ;
+  background-size:20px 20px;
+  background-color:#ffffff;
+  div{
+    font-size: 14px;
+    width: 100%;
+    float: left;
+    margin-left: 60px;
+    border-bottom:1px solid #e5e5e5 ;
+  }
+
+}
+.app-center-five{
+  float: left;
+  width: 100%;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  /*text-align: center;*/
+  background: url("../images/profile_item_feedback.png") no-repeat 20px 10px ;
+  background-size:20px 20px;
+  background-color:#ffffff;
+  div{
+    font-size: 14px;
+    width: 100%;
+    float: left;
+    margin-left: 60px;
+  }
+
+}
+.app-center-six{
+  margin-top: 20px;
+  float: left;
+  width: 100%;
+  height: 3rem;
+  line-height: 2.75rem;
+  /*text-align: center;*/
+  background: url("../images/profile_item_contact.png") no-repeat 20px 10px ;
+  background-size:20px 20px;
+  background-color:#ffffff;
+  div{
+    font-size: 14px;
+    width: 100%;
+    float: left;
+    margin-left: 60px;
+  }
+
+}
+
+.PlatformRuleContent{
+  height:100%;
+  padding: 10px 15px 15px;
+  line-height: 1.5em;
+  p{
+    margin: 10px auto;
+  }
+  h1{
+    margin-top: 1em;
+    font-size: 1.2em;
+    font-weight: 700;
+    color: #00bcd4;
+  }
+  .PlatformRuleContentp{
+    margin-right: 5px;
+    text-align: right;
+  }
+
+
+}
+//常见问题
+.CommonQuestionContent{
+  padding: 10px 15px 15px;
+  line-height: 1.5em;
+  h1{
+    margin-top: 1em;
+    font-size: 1.2em;
+    font-weight: 700;
+    color: #00bcd4;
+  }
+  p{
+    margin: 10px auto;
+  }
+  .question{
+    font-weight: 700;
+  }
+
+}
+
+
+
